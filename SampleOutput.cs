@@ -10,11 +10,11 @@ namespace SampleOutput
     {
         static void Main(string[] args)
         {
-            string rmLeng = "16"; //Room length
+            int rmLeng = "16"; //Room length
 
-            string rmWidt = "10"; //Room width
-            string sqFt; //Room area in Sq. Ft.
-            string costSqFt = "2.23"; //Cost per Sq. Ft. of carpet
+            int rmWidt = "10"; //Room width
+            int sqFt; //Room area in Sq. Ft.
+            double costSqFt = "2.23"; //Cost per Sq. Ft. of carpet
             double ttlCost; //Total carpet cost
             ////////////Above:  Variable declaration, Below:  Calculations
             sqFt = rmLeng * rmWidt; //Calculate area
